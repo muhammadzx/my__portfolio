@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background">
+        <div class="light light1"></div>
+        <div class="light light2"></div>
+        <div class="light light3"></div>
+
+        <div class="shape shape1"></div>
+        <div class="shape shape2"></div>
+        <div class="shape shape3"></div>
+        <div class="shape shape4"></div>
+        <div class="shape shape5"></div>
+        <div class="shape shape6"></div>
+
+        <div class="dot dot1"></div>
+        <div class="dot dot2"></div>
+        <div class="dot dot3"></div>
+        <div class="dot dot4"></div>
+        <div class="dot dot5"></div>
+
+        <div class="line line1"></div>
+        <div class="line line2"></div>
+        <div class="line line3"></div>
+        <div class="line line4"></div>
+        <div class="line line5"></div>
+        <div class="line line6"></div>
+
+    </div>
+
+    <header>
+        <div class="name">
+            <img src="images/accicon.png" alt="">
+            <p>MUHAMMAD ALSHAWABKEH</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="mood">
+            <img src="images/dark.png" alt="" class="imgMood">
+            <img src="images/light.png" alt="" class="imgMood">
+        </div>
+    </header>
+    <main>
+        <section class="hero" id="hero">
+            <div class="status">
+                <div class="pulse"></div>
+                <p class="statusP">Open to Opportunities</p>
+            </div>
+            <div class="heroAnemation">
+                <h1>Welcome to <span>my portfolio</span></h1>
+                <h2>I AM MOHAMMAD ALSHAWABKEH</h2>
+                <p>Front-End Developer | AI & Machine Learning Enthusiast</p>
+                <div class="heroBtns">
+                    <a href="#projects" class="btn projectBtn">My Project</a>
+                    <a href="#contact" class="btn contactBtn">Contact Me</a>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="aboutCont">
+                <article class="aboutMe">
+                    <h2>About Me</h2>
+                    <p>
+                        Hi, I’m <span>Muhammad</span>, a passionate Full-Stack Developer and AI graduate based in
+                        Jordan.
+
+                        I enjoy building modern, responsive, and user-friendly web applications. My background in
+                        Artificial
+                        Intelligence has given me a strong foundation in programming, problem-solving, and working with
+                        data
+                        and
+                        intelligent systems.
+
+                        I’m currently expanding my skills in Front-End and Full-Stack Development, working with
+                        technologies
+                        such as HTML, CSS, JavaScript, Python, and Flutter.
+
+                        I love turning ideas into functional and visually appealing digital experiences, and I’m always
+                        looking
+                        for opportunities to learn, build, and improve.</p>
+                </article>
+                <article class="myPhoto">
+                    <img src="images/me.png" alt="">
+                </article>
+            </div>
+            <article class="skills">
+                <div class="skill">Java</div>
+                <div class="skill">Python</div>
+                <div class="skill">ML</div>
+                <div class="skill">Full-Stack</div>
+                <div class="skill">c++</div>
+            </article>
+
+
+        </section>
+
+        <section class="project" id="projects">
+            <h2>My Projects</h2>
+            <article class="projectcards">
+                <a href="https://github.com/muhammadzx/Library_System_In_Java" class="aproject">
+                    <div class="card">
+                        <h3 class="projectHead">Library Management System</h3>
+                        <p class="projectDescription">
+                            A desktop Library Management System designed to simulate real-world library operations. The
+                            application includes book browsing, borrowing and returning features, with separate Admin
+                            and User dashboards.
+                        </p>
+                        <ul class="projectFeatures">
+                            <li>Role-based Admin and User dashboards</li>
+                            <li>Book browsing and management</li>
+                            <li>Borrowing and returning system</li>
+                            <li>Object-Oriented Programming (OOP)</li>
+                            <li>Structured system design and user interactionTechnologies: Java • OOP • Desktop
+                                Application</li>
+                        </ul>
+                        <p class="githup">Click to View on GitHub</p>
+                    </div>
+                    <div class="imgProjecDiv"><img src="images/library.jpeg" alt="" class="projectimg"></div>
+                </a>
+
+                <a href="https://github.com/muhammadzx/SweetBalance" class="aproject">
+                    <div class="card">
+                        <h3 class="projectHead">SweetBalance</h3>
+                        <p class="projectDescription">
+                            SweetBalance is a Flutter mobile application designed to support children with diabetes
+                            through interactive and intelligent features. The app combines AI-powered food analysis, a
+                            chatbot, and educational games in one platform.
+                        </p>
+                        <ul class="projectFeatures">
+                            <li>AI-powered food image analysis</li>
+                            <li>Nutrition, calories, carbohydrates, and GI estimation</li>
+                            <li>AI chatbot for diabetes-related support</li>
+                            <li>Interactive educational games</li>
+                            <li>User-friendly mobile interfaceTechnologies: Flutter</li>
+                            <li>Dart , Python , FastAPI , Gemini AI , Computer Vision , Firebase</li>
+                        </ul>
+                        <p class="githup">Click to View on GitHub</p>
+                    </div>
+                    <div class="imgProjecDiv"><img src="images/sweetPalance.jpeg" alt="" class="projectimg"></div>
+                </a>
+            </article>
+        </section>
+        <section class="contact" id="contact">
+
+            <article>
+                <form action="">
+                    <div class="form">
+                        <h2>Contact Me</h2>
+
+                        <input type="text" placeholder="Enter your name">
+                        <input type="email" placeholder="Enter your email">
+                        <textarea name="" id="" placeholder="Enter your messege"></textarea>
+                        <button type="submit" class="btn">send</button>
+                    </div>
+                </form>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 Muhammad Alshawabkeh. All Rights Reserved.</p>
+        <p>Front-End Developer | AI & Machine Learning Enthusiast</p>
+    </footer>
+</body>
+
+</html>
