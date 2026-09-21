@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -51,9 +52,13 @@
         </nav>
 
         <div class="mood">
-            <img src="images/dark.png" alt="" class="imgMood">
-            <img src="images/light.png" alt="" class="imgMood">
-        </div>
+    <input type="checkbox" id="themeToggle">
+
+    <label for="themeToggle">
+        <img src="images/dark.png" alt="Dark Mode" class="imgMood darkIcon">
+        <img src="images/light.png" alt="Light Mode" class="imgMood lightIcon">
+    </label>
+</div>
     </header>
     <main>
         <section class="hero" id="hero">
@@ -111,48 +116,57 @@
 
         <section class="project" id="projects">
             <h2>My Projects</h2>
+            
             <article class="projectcards">
-                <a href="https://github.com/muhammadzx/Library_System_In_Java" class="aproject">
+                <div class="gitlink ">
+                <a href="https://github.com/muhammadzx/Library_System_In_Java" class="aproject" target="_blank">
                     <div class="card">
                         <h3 class="projectHead">Library Management System</h3>
                         <p class="projectDescription">
-                            A desktop Library Management System designed to simulate real-world library operations. The
-                            application includes book browsing, borrowing and returning features, with separate Admin
+                            A desktop library system for browsing, borrowing, and returning books, with separate Admin
                             and User dashboards.
                         </p>
                         <ul class="projectFeatures">
-                            <li>Role-based Admin and User dashboards</li>
-                            <li>Book browsing and management</li>
-                            <li>Borrowing and returning system</li>
+                            <li>Admin and User dashboards</li>
+                            <li>Book management</li>
+                            <li>Borrowing and returning</li>
                             <li>Object-Oriented Programming (OOP)</li>
-                            <li>Structured system design and user interactionTechnologies: Java • OOP • Desktop
-                                Application</li>
+                            <li>Java • OOP • Desktop Application</li>
                         </ul>
+
                         <p class="githup">Click to View on GitHub</p>
                     </div>
                     <div class="imgProjecDiv"><img src="images/library.jpeg" alt="" class="projectimg"></div>
+                    
                 </a>
+               </div>
+               <a href="https://github.com/muhammadzx/Library_System_In_Java"><p class="githup gogit">Click to View on GitHub</p></a>
 
-                <a href="https://github.com/muhammadzx/SweetBalance" class="aproject">
+               <div class="gitlink ">
+
+                <a href="https://github.com/muhammadzx/SweetBalance" class="aproject " target="_blank">
                     <div class="card">
                         <h3 class="projectHead">SweetBalance</h3>
-                        <p class="projectDescription">
-                            SweetBalance is a Flutter mobile application designed to support children with diabetes
-                            through interactive and intelligent features. The app combines AI-powered food analysis, a
-                            chatbot, and educational games in one platform.
-                        </p>
-                        <ul class="projectFeatures">
-                            <li>AI-powered food image analysis</li>
-                            <li>Nutrition, calories, carbohydrates, and GI estimation</li>
-                            <li>AI chatbot for diabetes-related support</li>
-                            <li>Interactive educational games</li>
-                            <li>User-friendly mobile interfaceTechnologies: Flutter</li>
-                            <li>Dart , Python , FastAPI , Gemini AI , Computer Vision , Firebase</li>
-                        </ul>
+
+<p class="projectDescription">
+    A Flutter app supporting children with diabetes through AI-powered food analysis,
+    an AI chatbot, and interactive educational games.
+</p>
+
+<ul class="projectFeatures">
+    <li>AI food image analysis</li>
+    <li>Nutrition, calories & GI estimation</li>
+    <li>AI diabetes support chatbot</li>
+    <li>Interactive educational games</li>
+    <li>Flutter • Dart • Python • FastAPI • Gemini AI • Firebase</li>
+</ul>
                         <p class="githup">Click to View on GitHub</p>
                     </div>
-                    <div class="imgProjecDiv"><img src="images/sweetPalance.jpeg" alt="" class="projectimg"></div>
+                    <div class="imgProjecDiv up"><img src="images/sweetPalance.jpeg" alt="" class="projectimg"></div>
                 </a>
+                
+                </div>
+               <a href="https://github.com/muhammadzx/SweetBalance"><p class="githup gogit">Click to View on GitHub</p></a>
             </article>
         </section>
         <section class="contact" id="contact">
